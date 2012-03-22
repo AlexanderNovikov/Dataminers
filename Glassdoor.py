@@ -4,30 +4,26 @@ import sys
 
 __author__ = 'alexander'
 
-def argv():
-    if len(sys.argv) > 1:
-        a = sys.argv[1] + '-' + sys.argv[2] + '-' + sys.argv[3]
+def p(lookFor, jobTitle, company, tag, pageId):
+    if len(tag) == 0:
+        return 'http://www.glassdoor.com/Interview/' + jobTitle + '-' + company + '-' + lookFor + '-SRCH_KO0,' + str(len(jobTitle)) + '_KE' + str(len(jobTitle) + 1) + ',' + str(len(jobTitle) + len(company) + 1) + '_IP' + str(pageId) + '.htm'
+    elif len(jobTitle) == 0 and len(company) == 0:
+        return 'http://www.glassdoor.com/Interview/' + tag + '-' + lookFor + '-SRCH_KT0,' + str(len(tag)) + '_IP' + str(pageId) + '.htm'
     else:
-        print 'Usage: python Glassdoor.py [arg1] + [arg2] + [arg3] (Example: software engineer google)'
-        sys.exit()
-    return a
+        return 'http://www.glassdoor.com/Interview/' + jobTitle + '-' + company + '-' + tag + '-' + lookFor + '-SRCH_KO0,17_KE18,24_KT25,29' + str(pageId) + '.htm'
 
-
-def p(tag, pageId, extension):
-    return 'http://www.glassdoor.com/Interview/' + tag + '-interview-questions-SRCH_KO0,17_KE18,24_IP' + str(pageId) + '.' + extension
-
-def main(tag):
+def main(lookFor, jobTitle, company, tag):
     employerHeaderPageId = 1
     questionTextPageId = 0
     g = Grab()
-    f = open(tag + '.txt', 'w')
-    g.go(p(tag, employerHeaderPageId, 'htm'))
+    f = open(jobTitle + '-' + company + '.txt', 'w')
+    g.go(p(lookFor, jobTitle, company, tag, employerHeaderPageId))
     employerHeader = g.xpath('//h1').text_content()
     f.write(smart_str(employerHeader) + ':\n')
     while True:
         g = Grab()
         questionTextPageId += 1
-        g.go(p(tag, questionTextPageId, 'htm'))
+        g.go(p(lookFor, jobTitle, company, tag, questionTextPageId))
         if int(g.xpath('//li[@class="currPage"]').text) <= (questionTextPageId - 1):
             print 'Finished at page: ' + g.xpath('//li[@class="currPage"]').text + '!'
             break
@@ -36,7 +32,20 @@ def main(tag):
         print 'Page # ' + g.xpath('//li[@class="currPage"]').text + ' parsed!'
 
 if __name__ == '__main__':
-    main(argv())
+    lookFor = raw_input('Look For: ')
+    jobTitle = raw_input('Job Title: ')
+    company = raw_input('Company: ')
+    tag = raw_input('Tag (Optional): ')
+    if len(tag) == 0:
+        main(lookFor,jobTitle,company,'')
+    elif len(jobTitle) == 0 and len(company) == 0:
+        main(lookFor,'','',tag)
+    else:
+        print p(lookFor,jobTitle,company,tag,1)
+
+
+
+
 
 
 
