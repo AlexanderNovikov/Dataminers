@@ -1,0 +1,304 @@
+Java Interview Questions:
+“Does java support multiple inheritance?”
+“How would you go about creating a class for a chicken?”
+“Java internals:Can you do if (myClassList instanceof List<MyClass>) ?String.inter() method. String a = "foo"; String b = "food".substring(0,3); c = b.intern(); a == c?Integer i = null; int j = i; value of j?What will following code return?          try {         return true;       } finally {         return false;       }Check if a string can be encoded in a given format (UTF-8, ASCII...)String parsing with StringTokenizer”
+“how can you multiple Inheritance in java, explain Abstraction, Polymorphism, Encapsulation”
+“What are some of the differences between prototypical inheritance and classical inheritance?”
+“immutable class”
+“write code that implements a whitespace regex matcher in C++/Java”
+“-What's the different between composition and inheritance-Something about exception handling in Java-Draw a design diagram of tic-tac-toe game on the board-Asked about XML. Differences between element and attribute. Asked which properties of an object I should use as attributes and which ones has separate child tags.”
+“Re-implement the parseInteger method in java”
+“Interfaces”
+“What is an interface ??”
+“What technical skills have you learned in coursework and explain them to me.”
+“Does Hash Table allow null values”
+“Design a class given a set of requirements”
+“Find the second largest element in a Binary Search Tree”
+“Main difference between C++ and Java?”
+“Create Entity bean, write all methods inside it (he gave me some application, don't remember exactly), asked me questions about code.”
+“Write a piece of code using Inline classes. Consider different types of inline classes.”
+“Find Square Root of a number without using SQRT function.”
+“How will you find the next element in a binary search tree if a reference to the current element is provided? Write code for the same.”
+“A bunch of other Java questions, including difference between some JSR's related to portlets.  Also some JavaScript questons (something about 'first class functions'), CSS questions (write a selector that finds a TR HTML tag with a certain attribute), and some XPath question - I think the XPath question was, "what does the XPath look like if you want to find Customer XML element anywhere within XML...?"”
+“Write an AscendingSortedLongList and DescendingSortedLongList class ... and write some JUnit classes associated with them ...”
+“Implement following method:public String findValueInMap(String[][] myMap, String key)”
+“is it mandatory to have a default constructor? how each class is extended from Object class in java?”
+“Explain Struts flow”
+“Write a program to reverse an integer without using strings”
+“Explain classloaders in java”
+“How to cosume web service in java?”
+“Why is serialization called that?”
+“What is the difference between Java and Java Enterprise Edition?”
+“the final keyword in javafinal method/class etc”
+“Java generics - tell us from which version it was in the JDK and why to use them”
+“what is the difference between Vector and ArrayList”
+“what IDE you have been using.”
+“Given some Java code representing a travel alert system, write one of the functions that returns the most relevant travel alert.”
+“Explain Polymorphism in Java”
+“Hashes, Hashcodes, PHP”
+“What is a volatile variable, and why would you use it?”
+“Tell me about your experiences with Java Development”
+“Write a Java program that takes a 2D bitmap (represented as a 1D array of integers), and reverses it about its vertical axis.”
+“What is the difference between an interface an an abstract class in Java?”
+“HashMap implementation”
+“specific technical background”
+“Can you write a program to extract data from 4X4 array of strings ?”
+“What programming language you are comfortable in ?”
+“What is encapsulation”
+“5. The user of this class expected the output “Num: 1000000”.  They got something else.  What went wrong and how would you fix it?public class Test{    public final static int NUMTHREADS = 1000;    public final static int NUMLOOP = 1000;    public static int num = 0;    static class Mythread extends Thread    {        @Override        public void run()        {            for (int i = 0; i < NUMLOOP; i++)            {                ++num;            }        }    }    public static void main(String argv[])    {        Mythread threads[] = new Mythread[NUMTHREADS];        for (int i = 0; i < NUMTHREADS; ++i)        {            threads[i] = new Mythread();            threads[i].start();        }        try        {            for (int i = 0; i < NUMTHREADS; ++i)            {                threads[i].join();            }        }        catch (InterruptedException e)        {        }        System.out.println("Num: " + num);    }}”
+“4. Implement a basic Thread Pool in Java.  When it’s completed, discuss the trade offs of your implementation.   If you had unlimited time, discuss what improvements you would make to it and how these improvements would help developers that used your thread pool.”
+“2. Implement the following interface to implement a binary search tree in Javapublic interface BinaryTree<T extends Comparable<? super T>>{    public void insert(T data);    public T findMin();    public boolean contains(T data);    public void remove(T data);}2.1. (optional) What does T extends Comparable< super T>> mean?Ans: It means that T has to be of type Comparable, which can avoid redundantly specifying type parameters”
+“1.  Implement the following function:int findMax(int[] items){}”
+“Technical- They will start from basics like what are Abstract class, Interface.”
+“What is type erasure?”
+“What is a Java environment?”
+“What is Singleton Design pattern?”
+“What is difference between notify and notifyall?”
+“Why main method is static in java?”
+“Write program to print 1's diagonaly?1111111111111111111111111111111111111111111111111111111”
+“What is an interface”
+“what will you do if you were shrunked to nickels size and put in grinders jar ?”
+“Which programming language are you best skilled in? How do you feel about software engineering?”
+“Asked about Overload and overriding.”
+“What is the difference between an abstract method and and interface? (or something related to that)”
+“Default separator for java scanner.”
+“if you are asked to build a simple calculator, what do you plan to do?example input - "1+2*3/(5-4)-6 "output - "1"(coded solution is preferred).”
+“Is Integer a Class or variable where can static keyword used ?Adv and Disadv of using Static variablewhat are things need to keep in mind when using static variablehow can we apply locks static variable or how can we make sure static variable is not tamper withJava Complier and JVM - which on start firstAbstract vs Interfacewhy we need interface when abstract can do same stuff for usCan you use Interface.method?”
+“Explain the static keyword in Java.”
+“What are the three main features of object-oriented programming?”
+“How do you implement a concurrent hash map?”
+“Java Code to implement 5 places (code)”
+“Java basics: interface, inheritance, polymorphism”
+“State and explain the access modifiers in Java.”
+“What is static in JAVA?”
+“Write a code that counts the Number of objects created for a specific Class.”
+“What is a deadlock? Explain.What is Spring framework?HTTP is a stateless protocol. How is HttpSession implemented then?What is String.intern()?My Hashtable returns in constant time for most keys but for certain ones it takes a while. What is wrong?Explain volatile keyword. Is volatile keyword thread-safe?Explain a few design patterns.Name a few methods from Object class and tell what do they do.There is an integer array which only contains 1s, 2s and 3s. How will you sort it?What value has UML added in your projects?Java API says if you override equals method you should override hashCode too. Why?”
+“How does a garbage collection system work? How will you prevent an object from being garbage collected?Write N-ary tree traversal code to search a node given a String key.How many JVM instances does a tomcat server have? How would it handle multiple applications with different versions of same api (for instance log4j)?Explain wait and notify.Explain Generics.What is the difference between a static class and a singleton class?Why do you want to work for Netflix?”
+“What is the output from this code (assume int is 32 bit)int f(int n){    return n * f(n-1);}print(f(100));”
+“What are different Class Loaders in JSE application and what they do?”
+“Here is some code, what does it do?”
+“Polymorphism and example”
+“What is the difference between abstraction, encapsulation, and inheritance?”
+“Implement  ThreadLocal in java?”
+“What are the differences with Java and C, OO and structural programming.”
+“Write a code to find out if two string words are anagrams”
+“difference between C and Java”
+“A question was asked on the variables that can not be serialized .”
+“Is JVM a process based system or a thread based system”
+“Usage of finally keyword in JAVA (this was after checking knowledge of exception handling try-catch and throws)”
+“How much coding can you actually do?”
+“Solve this algorithm: find the longest common sequence among 2 string (e.g "EDfghjuy B", "dsicbw B d-oi" -> " B")”
+“Suppose we want to simulate traffic over a new area, which object oriented design would you use? Which objects and interfaces do you design to describe and simulate the system?”
+“Please go up to the white board and write an example of a java class with some methods and variables.”
+“What are some typical causes of a stack trace similar to this one?”
+“How would you convert a complex data retrieval program from Matlab to Java?”
+“Describe your projects?”
+“Given a binary sorted tree of ints, write code (java) on the board to traverse the tree to determine if a given value is in the tree.”
+“What are different ways to create threads in Java?”
+“-Why in Java does it require "static" in the main function?-What's a static function?-Give me a SQL statement that returns the count of number of rows.-How do you sort by / group by?”
+“what is constructor”
+“Explain the difference between a Java interface and a Java abstract class.”
+“java”
+“Case study-create an application for a service scheduling company. Can use pseudocode, programming language, etc.”
+“What is the Hashcode/Equals contract in Java”
+“static in Java; Object class in Java”
+“What are the two functions you need to implement in a class in order to make it usable efficiently in Java Collections?”
+“Explain in-order-traversal of a binary tree and write code for it.  You can use Java.”
+“Trim a string in Java (remove leading and trailing white space).  You can't use the String.trim() function.  Do it just using an array.  Keep in mind the string could have white spaces within it.”
+“Explain variour searching and sorting algorithms..”
+“Two very difficult five page tests on Java and SQL.”
+“company, organization and planning of the interview, number and type of interviews, and any advice you might offer to other interview candidates”
+“How would you resitrict visibility of variables in a Java subclass?”
+“Wanted to know how much experience I had with GWT.”
+“Singleton pattern, across JVM and examples of other design patterns in Core java”
+“Difference between abstract class and interface”
+“Difference between .equals and ==”
+“Given an integer k (1<=k<=2000000000), find two prime numbers that sum up toit and return the lower number. If there are multiple solutions, always return the lowest prime. If there are no solutions, return -1. Examples: k=12 gives 5 (5 + 7 = 12) k=68 gives 7 (7 + 61 = 68) k=77 gives -1”
+“Summing up the individual digits for each number from 0 to k (0<=k<=10000000),return how many times the most common sum occurs. Examples:k=10 gives 2 (since 1 and 10 both sum up to 1)k=50 gives 6 (since 5, 14, 23, 32, 41, 50 all sum up to 5)k=7777 gives 555”
+“Given a string s (1<=s.length()<=1000), return the shortest substring that is only occurring once.Examples:s="aabbabbaab" gives either "bab" or "baa"s="aaaa" gives "aaaa"”
+“Write me a program that does ... with recursion in it. In java or C++.”
+“Implement a simple stack class with the functions push, pop, peak and getSize.”
+“Can the double checked locking fail on single processor system?”
+“Describe classes and objects as related to Java programming.”
+“What is an abstract class? What is a JVM?”
+“technical question”
+“How would you eliminate repeated words in a String and print the unique tokens?”
+“What data structure would you use at the backed to put your weekdays in, so that the front end engineer can iterate over it and retrieve the same order.”
+“Performace, Code-review, Collections”
+“Write an algorithm that those X... now improve it.”
+“when do you choose hashmap in your program”
+“What's different between abstract and interface?”
+“What is a hashtable used for?”
+“How would you count the number of words in a string consisting of uneven number of spaces between words( not dictionary words)? With and without library functions.”
+“What's the difference between C/C++ and Java? Why would you prefer C/C++ or Java?”
+“The discribe a real situation and they expect to reach the same solution they have, or something better. Something is has to be with concurrency, Queues, transactions, and optimizations.”
+“Implement ArrayList”
+“why would you use an inner class in java.”
+“String Pooling concept”
+“Wrong code, parent class has public method. Child class have same method but protected. Will code compile ?”
+“singleton pattern”
+“Asked me a question on multi-server programming and some questions on multi-threading in java”
+“Here is a string with duplicate characters in java. Remove the duplicate characters. Return value is a string”
+“Not unexpected, since it was a coding question, But I was given a laptop to actually code it and run the code.”
+“Write a method that will take an array and return a list of points from that array whose values sum to a target value- Do it in linear time”
+“Do you know how garbage collection is performed?How does the garbage collector determine what to consider garbage and what isn't garbage?”
+“How can you optimize the code written for B+ tree.”
+“Implement B+tree.”
+“Asked to add 1-100, 101-200, and 201-300 in separate threads and then total the numbers.”
+“I was given a scenario where a given address object was being accessed and modified by multiple threads.  The question was how to modify the object to be thread safe.”
+“How would you check if a string  is a palindrome recursively?”
+“How would you program Monopoly?”
+“Explain how JSP works”
+“given an array of integers, determine the integer closest to zero.e.g., array = 1, 2, 3, -2, 4; the answer is 1.if the array contains both 1 and -1, the answer is the positive one”
+“How do you process a set of log files if you don't have enough memory to do it?”
+“Suppose you have a set objects, identified by a unique name. How do you store them so that you can retrieve them easily?”
+“Q2) Certain Customers buy kindle on day one and certain customers buy kindle on day two. Design an algorithm(optimum) to find customers who bought on both days. Each customer has a unique ID (Integer). (I forgot to consider case of duplicates,until she reminded), You need to write complete code(NOT just pseudo code within given time and read it out)”
+“Given a String containing java-script assets, write a parser which will output the String with proper indentation.”
+“How would you implement a binary search algorithm for a tree-type data structure?”
+“what is the difference between an interface and an abstract class?”
+“In Data Structure, what's the difference between Tree and Array in term of FIFO and LIFO ?”
+“Here is a large chunk of code printed out on paper: find the errors”
+“How are Observer and Observable used?”
+“What is the common usage of serialization?”
+“What are different types of inner classes?”
+“State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers.”
+“Describe the benefits of Spring and the role of the BeanFactory.”
+“Write the function that calculates price of the cup of coffee where price of the condiments depends on size of the coffee cup. For example milk cost 10 c for small cup 15 c for medium and 20 c for large”
+“Arrays vs. ArrayLists”
+“What is the difference between a Class and an Interface in Java? Give examples to explain.”
+“Explain in Detail Compilation to Execution of a Java Program.”
+“How would you design garbage collection in JVM if it was your task? Describe existing GC algorithms.”
+“You have a technical problem, you have to make the client aware, and you have to propose alternatives/solutions on mitigating this”
+“How can you ensure that something you pull out of a collection is the right type?”
+“Design Loosely Coupled Classes on a given set of objects”
+“Create a Java class that receives a collection of collections as parameter and provides basic iterator functions, that is next() and hasNext().The inner structure (collection of collections) must be hidden by the external interface. The next() method must thus iterate over all the elements of all the collections, starting with the next one if the current ends.”
+“How synchronization is helpful in multithreading?”
+“Write an API method to reverse a string”
+“What is the difference between C++ and Java?”
+“Please code up and send me a function that takes two integer arrays and returns their intersection. This answer must take less than n^2 time.”
+“Basic Java questions, SLDC, role of every phase of SDLC, how accquainted i was with every phase, my previous project experience, etc”
+“Executor framework in java.util.concurrent framework”
+“How do you plan JVM for a web application ?”
+“How would you implement capturing a bit stream of input coming in from a device in Java?”
+“What are inner classes? When they should be used?”
+“What is stack overflow and why does that occur?”
+“Explain the concept and working of garbage collector in Java.”
+“What is inversion of control?”
+“What has been added new in Java 1.5?”
+“Which of the following statements about Reflection is/are true?”
+“A developer is attempting to track down an infrequent and possibly randomly occurring bug on a production system.Which Handler will the developer use to ensure that only the most recent set of log messages are captured instead of capturing the entire history of log messages?”
+“A handheld device with limited memory is being programmed to hold a set of named on/off flags. Which is the most appropriate Collection to hold this information?”
+“design a poker game data model in Java”
+“implement sort(int a, int b, int c) in Java w/o using any Collections methods”
+“Thread pool implementation and deriving a pattern out of it”
+“What is the difference between Stack, Object pool and thread pool?”
+“how do you reverse a string?”
+“The key thing was understanding how the java garbage collector worked.”
+“Describe the process of Java serialization”
+“What's the difference between wait() and sleep()?”
+“I was asked to write an algorithm to find the minimum number of 1 letter changes to get from a given start word to a given end word using a dictionary of valid words, i.e. Cat->Cot->Cog->Dog”
+“How this process do you think is working? (Showing an awful piece of code)”
+“there are numbers series: 0,1,1,2,3,5,8,....write code to display the series when x is the given position, i.e. f(x) :f(4) => 0,1,1,2”
+“Explain the Java MVC”
+“my past experience in Accenture”
+“What is the difference between private and protected in Java ?”
+“Low level design questions”
+“Scenario based design questions. Design a layer of objects for plane consisting of pilot, air-stuarts/passengers/chidren/ladies/gents. Prepare for crash.”
+“What is an abstract class?”
+“What classes would be required to retrieve a String from a database?”
+“Does java support multiple inheritance?”
+“Explain how Mark&Sweep is implemented.”
+“Explain how Java does Garbage Colleciton.”
+“Java keywords: final, finalize, finally”
+“core java”
+“What type of search is this? Had an example of code (can't remember it off the top of my head)”
+“mostly questions on db and collection framework and strings”
+“How would you resolve an issue where there is a leak in the database connection pool?”
+“Is java pass by reference or by value? Explain with a coding example.”
+“Write an efficient method to reverse a string.”
+“Code Questions”
+“Just a bunch of random questions about java and unix”
+“List all anagrams in a file.  Assumptions: case-insensitive, a-z characters only, one word per line.  For example, if the file contains dog, cat, ddd, goo, act, god -- output dog, god, act, cat”
+“Dynamic binding, Threading, Problems in Threading, Virtual method”
+“What tools do you use while checking the performance of your code.”
+“Explain what data structures is used in Array List”
+“What is hashing and explain it in detail”
+“how do you Integrate Struts and Spring Application?”
+“Basic Object Oriented question”
+“how to find square root of integer”
+“What is the difference between an interface and an abstract class”
+“What is the difference between StringBuffer and String?”
+“What is the difference between final, finally and finalize?”
+“Core JAVA knowledge, no J2EE”
+“name a few technologies supported by this company”
+“Diff b/w var1 == var2 and var1.equals(var2)Which method needs to be implemented along with equals()?”
+“public class WhichReturns{  public String whichReturns(){    try{         return "1";    }finally{         return "2";    }   public static void main(String argv){      System.out.println("Return val: " + WhichReturns.whichReturns());   }}”
+“Find the lowest double in an array of numbers?”
+“Write an algo to find the missing number from a array of numbers 0 ... 999,999.”
+“What is the most used Java class?”
+“Given a binary tree, how do you create a function that can swap the binary tree? (i.e. the left child becomes the right child and vice versa)From this function you just created, can you create another function that will swap the tree in Alternate level? (i.e. swap 1 level and then the next level does not swap)”
+“What is the difference (in Java) between the keywords, final, finally and finalized?”
+“What are JARs, WARs and EARs?”
+“describe some of the design patterns that you have used”
+“can there be a thread without a process”
+“What does everything in Java inherit from?”
+“How would you check to see if a string is empty in java 6 and java 5 ?”
+“How would you stop a java Thread ?”
+“Describe what an API is and why it is useful?”
+“What is the difference between an abstract class and an interface?”
+“What are Java, SQL, and Unix? (three separate questions from phone interview)”
+“Why doesn't eBay use EJBs, Hibernate, Spring, Transactions?”
+“How do you handle thread safety in DAOs? An instance of DAO is called by”
+“They asked me to do a technical assesment of my Java and Struts skills.”
+“Core Java, Spring, Hibernate fundamentals, SQL”
+“Collection in java”
+“Java questions.. OO, design pattern.”
+“How to find the median number out of 4 byte integers?”
+“why and when would you use a java hashmap over an array list”
+“Provide an algorithm that traverses a matrix of interconnected nodes and returns the one marked "end".”
+“They asked me why would I use Hibernate instead of plain JDBC”
+“Given an array of paper products in which each product has an attribute name, width, and height, and given a sheet of paper that has width xx and height yy, write a program that returns the number of sheets of paper needed to print out the array of paper products”
+“..to suggest optimal data structure to save and search in it 1 million strings .”
+“Explain the Java architecture and how a Java program is executed.”
+“what is a final variable in java and for which purpose is it used”
+“Describe what you're referring to as continuations. How can they be implemented in Java?”
+“A business case that required me to write some psuedo java code with the benefit of an IDE and in a short period of time with the interviewer watching over my shoulder.”
+“Why won't this java code compile?”
+“What are the differences between C and Java? What would you describe as the defining characteristics of an object-oriented language?”
+“A variety of Java questions that were very specific on Java corner cases or peculiarities.”
+“Design solution for train problem (two columns , 65 rows  , 5 seats per colomn).”
+“Find the 3rd largest integer in an array”
+“Give me an example of when you would want to create an interface”
+“Explain what inheritance is in Java”
+“How will make sure in a client server application that no request are lost?”
+“how do you compare two java string object if they have the same string stored in them ?”
+“Java programming questions - basic stuff, threading, garbage collection, collections, IDE”
+“Write a program to display all subdirectories and files from a given root directory .”
+“SQL - there was a set of database tables and their relations provided.  There were questions about writing fairly straightforward SQL queries, and one about how one would modify the diagram with a new table.”
+“Difference between get & post method.”
+“how to process XML”
+“Code an iterator for a Collection of Collections in Java.”
+“What is the difference between abstract class and interface? when do you need to use abstract and when do you need to use interface in java?”
+“Describe the singleton pattern in Java.”
+“When using an ArrayList as the implementation for a list collection, what happens if adding an element exceeds the ArrayList's capacity?”
+“Which one of the following is NOT polymorphic behavior?does java.io have for preventing malicious code from altering Serialized Objects?What support does java.io have for preventing malicious code from altering Serialized Objects?”
+“Implement a sparse matrix Java class with a constructor, set and get method. The matrix has millions of rows and columns and is at a maximum 15% populated.”
+“What languages do you use to code?”
+“How would you find the shortest path between two nodes in a graph? Write code in Java to do this.”
+“Come up with a priority queue implementation in Java on the whiteboard.”
+“Some linkedlist related classes and methods.”
+“What's the difference between synchronized and volatile in Java?”
+“Sample questions concerning Java or SQL.”
+“What does AWT stands for?”
+“A basic 'how do you prevent a race condition' question.”
+“You have a class in Java and you would like to know how many instances of it exist at any given time. How would you do this?”
+“What are the different scopes for Java variables?”
+“GC strategies in the JVM”
+“What is the difference between Private, Protected, and Public when applied to members of a Java class?  What is “Package Scope”?”
+“Given the root node of a tree, write two Java programs to visit all nodes of the tree, one in a depth-first fashion and the other in a breadth-first fashion, both without using recursion. Assume a node is represented by a class named Node, which has a method children() that returns a list of child nodes. Call node.visit() to visit a node.”
+“Write a function in Java that will take a sorted array of ints, possibly with duplicates, and compact the array removing all the duplicate numbers. That is, if the contains the numbers - 1, 3, 7, 7, 8, 9, 9, 9, 10, then when the function returns, the contents should be - 1, 3, 7, 8, 9, 10.  Be sure your answer is as efficient as possible.  Describe the efficiency of your algorithm using big O notation.”
+“Solve a coding problem in Java. You're given a laptop and 2 hours.”
+“In a Unix environment what are the top 3-5 considerations for performance monitoring a Java application that has access to a local Oracle instance (located on the same server). Please be as specific as possible (i.e. commands, locations, etc.)”
+“Programming test  on a machine without internet access”
+“What different (javascript / css) libraries do you use and why? What are the benefits you see from using these?”
+“What is an immutable class?”

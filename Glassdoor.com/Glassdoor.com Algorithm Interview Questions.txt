@@ -1,0 +1,256 @@
+Algorithm Interview Questions:
+“Critic: People today place an especially high value on respect for others; yet in their comedy acts, many of todays most popular comedians display blatant disrespect for others. But when people fail to live up to the very ideals they hold in highest esteem, exaggeration of such failings often forms the basis of successful comedy. Thus the current popularity of comedians who display disrespect in their acts is hardly surprising. The critics argument depends on which of the one following assumptions?”
+“a. How do you design a distributed and fault tolerant system?b. How do you improve the system to automatically balance the workload among the nodes?c. Any problems if the system is to be used for large scale realtime data processing? How do you solve these?Can you improve the availability of the name node(s)?”
+“Linear algorithm to find common ancestor of two nodes in a directed graph. Given two nodes, an array of graph nodes and Array of parents per node”
+“Design a stack with the help of an array in Java.”
+“You have a list of integers. Figure out an algorithm that returns whether or not 3 elements in the list add up to 0.Now, optimize it.Now, do it for 4 elements. Optimize it.Now, do it for k elements. Optimize it.”
+“How to find the intersection of two lists?”
+“write code that implements a whitespace regex matcher in C++/Java”
+“given non-zero number array A, create array B where B[i] = product of all elements in A except A[i].”
+“Find the index of an element in a matrix which has been sorted, if can't find the element return (-1, -1)”
+“How to find a number in an array of number”
+“How do you find three numbers that sum to 0? (in a list). Now can you do it under O(n^3)?”
+“Given US denomination coins, what is the algorithm to make change for any amount?”
+“Given a list of numbers and a rand(0,1) function, which returns a random integer between 0 and 1. Provide an algorithm to randomly sort the given list, based on the output of the rand() function, which should be called once for every number on the list. Code the solution in any language of your choice.”
+“find a sub-string in a string”
+“Find the second largest element in a Binary Search Tree”
+“Different Time complexities of Data structures”
+“Write a method to reverse the order of words in a string. e.g.: "This is a string" -> "string a is This"”
+“Find Square Root of a number without using SQRT function.”
+“Given an array of 0's and 1's, and a number k, find the minimum window that contains k 0's. Write code.”
+“You are given a list of about half a million English words.  All of the English words have fewer than 35 characters.  You are also given a (potentially very long) input string of characters.  Determine an algorithm that will find all of the valid anagrams of the input string.  What data structures will you use?  Is it efficient?  Now that you've figured out the algorithm, implement it in the language of your choice.  How would you parallelize it?”
+“Please describe the 'diamond problem' with regards to multiple inheritance in object oriented programming.”
+“Heap construction”
+“How would you find the n-th greatest element in a binary search tree?”
+“A Crossword issue. Fill number in a 9*9 matrix.”
+“Overall the questions weren't very difficult. One unexpected question was to create Fibonacci series for negative numbers”
+“How do you find the max depth of a binary tree?”
+“Given several cities and their mutual distance, find an algorithm to find the minimum time to spread a message throughout all cities.”
+“Use stack in place of queues”
+“atoi with radix support”
+“Coding in pseudo-code a binary-search algorithm that also finds the insertion point for adding new elements efficiently.”
+“(following the previous one) You got only ONE baby bottle sample. You would like to know the max height you can drop it without breaking the bottle. Let set the unit as 1 foot. And the highest height you can reach is at N feet. So how would you find the (max) safe height?”
+“You got some baby bottle samples. You would like to know the max height you can drop it without breaking the bottle. Let set the unit as 1 foot. And the highest height you can reach is at N feet. So how would you find the (max) safe height?”
+“Describe a routine which returns the set of integers in {1..100} divisible without remainder by 3 but not by 9.”
+“Code a solution to rotate bitmap by 90 degrees given a structure definition representing the bitmap and a function prototype for the function to do the rotation.”
+“Given the definition of a Fibonacci sequence, write a function to give the n-th term of the sequence.”
+“Implement a Linked List class (for ints only) that supports an append function, which simply appends to the end of the list.After that, they asked me to implement an appendAt function that takes two ints as arguments, and appends the second argument to the node containing the first argument in the list.e.g for a list 1 -> 2 -> 3 -> 4 -> 5 , appendAt(3,6) would result in a list: 1 -> 2 -> 3 -> 6 -> 4 -> 5e.g for a list 1 -> 2 -> 2 -> 3 -> 4 -> 5, appendAt(2,8) would result in: 1 - > 2 -> 8 -> 2 -> 3 -> 4 -> 5 (i.e if the first argument appears more than once in the list, then append the second argument to the first instance of the node containing the first argument)I gave an iterative solution to the problem. The interviewer then asked me to write it recursively.This one is really easy, I faltered on it for some reason.”
+“You are given a Binary Search Tree of ints with duplicate entries. You are guaranteed that if an element has a duplicate entry, it is in the right subtree of that element. Write a function to count the total number of duplicates.(note, if a tree contains the same element two times, the count of duplicates is 1, not 2)”
+“Write a function that takes an integer and counts the number of bits.”
+“How do you reverse a linked list”
+“Depth First Search algorithm and code in C to "print" values of node in a tree.”
+“Given a list of integers that fall within a known short but unknown range of values, how to find the median value?”
+“Some question based on complexities of sorting algorithm , Usual sorting algorithm complexity ... can it be made any quicker”
+“What are lists, binary search trees, complexity and big oh notation. What is the complexity of various operations, insertion, deletion, search in a BST and Linked list”
+“Reverse a singly linked list”
+“If you have a file containing millions of integers, how would you sort the data in the file using extremely limited resources, such a s 1GB of memory?”
+“if you are asked to build a simple calculator, what do you plan to do?example input - "1+2*3/(5-4)-6 "output - "1"(coded solution is preferred).”
+“int Solve(string str);Given the signature above, implement the simplest method that returns the results of the following arguments:1. “3+5”    (8)2. “10+2-8”   (4)3. “5+10*3” (35)4. “3+5--6" (14)”
+“Given an XML file of the world,where the sub-nodes would be the countries, their sub-nodes being the States/Regions n leafs being the cities, and given 2 nodes, how would you find the most common sub-node to both the given nodes.Eg:1)Node1- New DelhiNode2-San FranciscoOutput-Node for World2)Node 1-BeijingNode 2-ShanghaiOutput- Node for China(not world)”
+“Explain few sorting algorithm. What are their complexities ?”
+“Given the daily values of a stock, find how you can lose the most with one buy-sell trading.”
+“Given two sorted integer arrays, write an algorithm to get back the intersection.”
+“Macaco Prego”
+“Write a function for mutliply(a,b), where a and b are both positive integers, but you can only use the + or - operators.”
+“Write the function nqueens(num_rows, num_cols, num_queens) -- where num_rows and num_cols is the size of an arbitrary chess board. Function returns "true" if there exists a way to place "num_queens" queens without any queen threatening any other queen, false if it isn't possible.Efficiency is not a concern.”
+“Describe a case where you would need to use a cursor to return records from a table.”
+“given the output from the first question write a algorithm to calculate how many possible inputs could have created that output. for example."1211" could be interpreted as one two and one one || one hundred and twenty one ones.”
+“given a number as a string write a algorithm to map to its oral description. I.e."1" -> "11" //this can be thought of as there is one one."11" -> "21" // there are two ones"21" -> "1211" // there is one two and one one"1211" -> "111221" ect. //there is one one, one two and two ones”
+“You're given a set of strings.  You want to test if any two strings in the set are anagrams.”
+“Game of Life - write a function to calculate next state of the board based on current state”
+“breadth level fashion BST ?”
+“A question regarding , 2D points search was asked. ?what data structure .”
+“factorial of N numbers.”
+“Implement Fibonacci in log_n time”
+“Write a function that raises a number to an exponent in C or Java...”
+“List all sorting algorithms you know and their running times.”
+“Solve this algorithm: find the longest common sequence among 2 string (e.g "EDfghjuy B", "dsicbw B d-oi" -> " B")”
+“Having two distinct very large ordered array of values, find the mean value of the two arrays.”
+“How would you explain to a client of the importance of internet marketing/social media?”
+“what is binary search? Explain worst case and avg case complexity of it? How will you modify it to handle circularly sorted array?”
+“Design data structure to implement T9 dictionary”
+“Write bubble sort in any language”
+“Blocking queue implementation. Coding was required.”
+“Here's a situation involving gym lockers that I've been wondering about.  What do you think of it?”
+“Design an algorithm to do X, then analyse the complexity.”
+“Which sorting algorithms do you know? How does it work? What is the complexity of this algorithm? What is the smallest possible complexity of the sorting algorithm?”
+“algorim question:find the intersection of two sorted arrays .”
+“There was a question that was a Dutch National Flag problem.  It is essentially about grouping colors, however he used integers, positive, negate, and zero to do the same thing.”
+“Merge 2 sorted single-linked lists into the brand new list (no pointer copy allowed). The resulting list should have the data from both lists all correctly sorted.”
+“1) Write merge function to merge 2 arrays into single array.2) Find the length of linked list loop.3) How to get the values of two elements from array whose sum is N.2nd round :1) Get nth largest/smallest from BST.2) How will you remove duplicate paragraph from big file.    Told hashmap, asked me to write hashcode :-(3) Perform merge of multiple arrays.  (k way merge)    Thought for sometime, but could not tell. :-(3rd round :1) Middle of linked list2) sum in binary search tree3) Some unix questions.4) How will u design Google maps or yahoo maps.4th Round :Puzzle on 25 horses.”
+“Implement pow function.”
+“Explain variour searching and sorting algorithms..”
+“How do you find the union and intersection of 2 lists(assume millions of values)? How do you optimize the solution”
+“In a BST write a program to find 2 nodes x and y such that X+y=k”
+“Serialize an array of integers in an arbitrary way.  Imagine a 4x4 grid where the cells are visited in a snakelike pattern.”
+“You are given an array of integers, A1, A2, ..., An, including negatives and positives, and another integer S. Now we need to find three different integers in the array, whose sum is closest to the given integer S. If there exists more than one solution, any of them is ok. Is there an algorithm to find the three integers in O(n^2) time?”
+“Given a set of non-overlapping integer ranges (1,3) (5,8), etc., and an input integer, what is the best way to organize the data and allow for quick search based on the input, etc.”
+“Implement a simple stack class with the functions push, pop, peak and getSize.”
+“Solve the technical challenges of a given problem”
+“how do you find 3 number total 0?”
+“Fibonacci implementation”
+“What do you do to keep up with the frequent changes to search engine algorithms?”
+“Given a string, remove all the duplicate characters (not necessarily consecutive)”
+“Given a set of words, group them into sets of anagrams.”
+“Convert a binary search tree to a sorted, circular, doubly-linked list, in place (using the tree nodes as the new list nodes).”
+“Print a singly-linked list backwards, in constant space and linear time.”
+“How would you implement a 'bag' data structure with push() and pop() operations that scales well on a massively parallel system. (Imagine you are implementing malloc on a multiprocessor OS)”
+“What is a hashtable used for?”
+“Write a function that calculates square root of a given number.”
+“How to find 5 most recurring words in a text file ?”
+“-Fastest way to compute x^n, X and n being integers?”
+“array of +ve nums, find pairs that add up to a given value”
+“Write a function that computes the intersection of two arrays. The arrays are sorted. Then, what if one array is really larger than the other array?”
+“Write the code for singly linklist?”
+“Write an algorithm that detect anagrams in a string”
+“Reverse string”
+“Implement B+ tree”
+“Come up with an algorithm to determine how many consecutive zero's are at the end of the factorial of a number, n.”
+“Find the max depth of a binary tree”
+“Find the middle node of a linked list with no cycles”
+“Write code to find the largest palindrome number that is the product of two N digit numbers.”
+“Receive 1000 bids/second for a stock.  Want to store the top X bids and calculate the mean.  How?”
+“How can you optimize the code written for B+ tree.”
+“Implement B+tree.”
+“C Language: first: how do you open a socket in C?Then: write a program to reverse a string in place.”
+“Find maximum area rectangle under a histogram”
+“Given 3 sorted array, find 3 elements (one from each) such that a + b = c”
+“There are 10 stacks of 10 coins each. 9 of the stacks contain coins that weigh 1g each. The other stack contains coins of 2g each. The coins look the same. We have a scale that we can get a measurement of grams from, not a balance. We can use the scale exactly once to weigh anything here from a single coin to all of them. How can we determine which stack is the 2g coins?”
+“We have a pond containing a single bacterium. The number of bacteria double every 5 minutes, and the pond is full of them in 24 hours. If we started with the same pond but two bacteria, how long will it take to fill the pond?”
+“Q2) Certain Customers buy kindle on day one and certain customers buy kindle on day two. Design an algorithm(optimum) to find customers who bought on both days. Each customer has a unique ID (Integer). (I forgot to consider case of duplicates,until she reminded), You need to write complete code(NOT just pseudo code within given time and read it out)”
+“Implement a power function to raise a double to an int power, including negative powers.”
+“Given an array of integers, all but one of which appears an even number of times, find the one integer which appears an odd number of times.”
+“Design an algorithm for an soda machine, each time the machine gives change it has to return the least amount of coins possible.”
+“Write a function to obtain a string with the binary representation of an integer”
+“Write a function to search for a string within another string. Analyze it's complexity, and propose optimizations.”
+“2. Given an array of unique objects, how can you traverse through them to find the a given one and it's index. How would you do it you had to do it in constant time? Without a hashtable?”
+“Application of Divide and Conquer Solution - Binary Search Tree for a problem”
+“Given a collection of words, return a collection of anagrams found in thegiven collection”
+“Given a certain state of an Othelo game board, location on the board, a certain piece to place on the given location, update the board and make the required validations”
+“Make an algorithm that, having N cards in N+1 slots (one slot empty), reach a final configuration (given initial one), showing all the steps. A move is valid only if it is moving one card from to the empty spot (letting the card's place now empty).”
+“you have array with n elements. How would you do circular shift of k positions? Time and space complexity?”
+“You have dictionary. How would you design function/system that should return true/false for check if a word is in a database? How would you scale your solution if word db does not fit in memory/disk? How would you scale it to really big db of words that should be located on n computers?”
+“Check two leafs of graph connected or not, how we can optimize algo”
+“Bitwise shift right cyclic”
+“How can you solve n^m efficiently only using +, -, *, /.”
+“Given two lists of words, develop an algorithm that creates a new list of words containing only the words found in one of the two lists but not both (XOR).”
+“implement calculator describing how to represent the different symbols, hold them in memory, and perform the right order of operations”
+“Output a single linked list in reverse, in linear time and constant space, and recursively”
+“Convert an int to a string (character array) in C.”
+“Water-Jug puzzle, Is BST, Tree and graph problems”
+“asked a question on finding linear increasing subsequence”
+“Explain heap sort for a particular situation they gave me”
+“how do you reverse a string?”
+“What algorithm would you use to search a sorted list?  What is the complexity of the algorithm?  Implement the algorithm in your language of choice.”
+“Given two lists, A and B, of sizes n and k, respectively, describe an algorithm to determine the intersection, C, of the two lists.  What is the complexity of your algorithm?  (The obvious solution is O(n*k)).  Can you describe a solution that is faster?  (An optimized solution can do it in O(n+k)).”
+“Given an array of integers, write a function to find the list of all pairs whose sum equals a given value. Discuss and give time/space complexities of your approach(es).Signature of the function is:public void (int array[], int sum) {    // your code here}”
+“write a code to print out the fibonacci sequence recursively and iteratively.”
+“Name one of the more efficient sorting algorithms”
+“How would you find out if there's a loop in a linked list?”
+“There are n pots with different # gold coins in them. Two players play a game, where each player can select a pot at either ends. maximize the gold”
+“Given a search terms, find the minimum window containing all the words”
+“I was asked to describe an efficient string searching algorithms”
+“Write the algorithm to find all possible phone numbers that can be dialed on a standard touch-tine phone keypad when the "next digit" can only be selected from the #'s that are reached by moving as a Chess Knight (over 2 & up/down 1, or over 1 & up/down 2)”
+“Write an algorithm to sort and merge 2 LARGE data streams on a system where storage is essentially unlimited (but slow) and RAM is limited.”
+“Trim a URL address by parsing it and if a "/../" string is obtained remove previous folder and print the final URL.”
+“randomize an array.”
+“In a given list of words, find matching words in the list that can be generated from the patterns of a given word.”
+“Find the Kth hisghest element in a given array.”
+“Write an efficient method to reverse a string.”
+“1. Find common elements between two arrays of integers.2. Find cycles in a graph.3. Efficiently find duplicate elements in an array of numbers with bounded entries (for example, elements are between 0 and 99).4. Reverse word sequence in a string inplace.5. Efficiently find all Pythogorean triplets in a given array of integers.6. Find all anagrams in a list of words.7. Set operations.”
+“Given this data structure (illustration of a graph). What kind of data structure is it and in which ways could you traverse it?”
+“Given the pre-order and in-order traversing result of a binary tree, write a function to rebuild the tree.”
+“"Design a utility similar to Google suggest. How can you do it?"”
+“Given XY coordinates of a line and a rectangle, calculate the where the line will intercept the rectangle.”
+“Give you a random number generator, which generates 0 and 1 in arbitary probability. Using this random number generater, please design a generator which generates 0 and 1 in equal probability.”
+“Write down code to calculate Fibonacci in 2 ways - then asked to explain complexity.”
+“sorting, balance of searching tree.”
+“First phone screen: Print all the nodes of a tree in reverse level order (ie print all the nodes at the leaves first, then print the nodes on the level above the leaves, and then eventually work your way to the top).”
+“Second phone screen:  Implement a function to determine if a string is a substring of another string.”
+“Given an array of integers where each element points to the index of the next element how would you detect if there is a cycle in this array?”
+“Technical Questions”
+“Given a list of integers, some of which may be negative, extract the pair that sums to the largest number.”
+“Extract the N largest floating point numbers from a large file of floating point numbers.”
+“There is an NxM grid containing a robot at (1, 1) and a destination at (N, M). Robot can move only up or right. Some locations can have obstacles. Find the number of unique paths from (1, 1) to (N, M). What is the time complexity of your algorithm?”
+“There is a museum organized as NxN room. Some rooms are locked and inaccessible. Other rooms are open and some rooms have guards. Guards can only move north, south, east and west, only through open rooms and only within the museum. For each room, find the shortest distance to a guard. What is the time complexity of your algorithm?”
+“Write a function Brackets(int n) that prints all combinations of well-formed  brackets. For Brackets(3) the output would be((()))  (()())  (())()  ()(())  ()()()”
+“Write an algorithm to rotate a node of a binary tree.”
+“The manager of the UI team asked me to solve an algorithm problem, something about finding elements in a linked list.”
+“Question about scalability:How would you sort a huge file - one that can not fit in memory?”
+“what are heaps?  running time, space, complexity”
+“Bubble sort or merge sort for input of size < 1000? For input size > 1000?”
+“Given that plenty of memory is available, how would you design a program that would hold information of about 3000 employees in a company?”
+“What is the running time of quicksoft?”
+“find the path in a binary tree from root to leaf, if the sum of nodes values equals a given number”
+“when did you hear about us”
+“Write a program for creating Huffman Coding for a set of characters given its frequency table.”
+“Design the Boggle Game. (Given a 4x4 character matrix, output all possible words by moving through the matrix)”
+“Implement stack using a queue”
+“If you had 5,623 participants in a tournament, how many games would need to be played to determine the winner”
+“You have a genealogy:1) Describe a data structure to represent it.2) Given any two people within the genealogy, describe an algorithm to determine if they share a common ancestor. You just need to return true/false, not all  ancestors.”
+“Give an idea to show how to rearrange the array a1, a2, ..., an, b1, b2, ... bn into a1, b1, a2, b2, ..., an, bn with O(n) computation time cost and O(1) extra memory cost.”
+“assume you are writing number in ascending order  to an array of constant size. once you reach the end of the array, you start writing from the beginning, thus writing over the oldest entries.write an algorithm for finding a specific number in this array.”
+“Given a tree, print the in order traversal of values, depth by depth.”
+“Write an algorithm to find out the price for a keyword of an item based on the values present in the existing tables. He gave me 2 tables and some columns with item details. Keywords to search for those items etc.. The keywords can have multiple words. For example if you have existing high volume keywords in the the table like iPOD with a certain price then how much price should be the phrase "iPOD Touch 8gb" (a potential low volume keyword).”
+“Arbitrary precision numbers and fuzzy search”
+“all numbers appear twice in an array, except one special number that only apprears once.  how to find it efficiently using only constant extra space”
+“explain what is hashing and how does hashing works”
+“Implement a function to validate whether a given binary tree is a BST (i.e. write an isBST() function).”
+“You have an array randomly filled with red, blue and green items. How do you order this list so the red items are at the beginning, followed by the blue ones, followed by the green ones? The algorithm should be in-place (no extra storage, or only constant extra storage) and the algorithm should only walk threw the array once (every position can only be read once).”
+“They asked me to code the algorithm i proposed in 10 mins. i asked all others who interviewed with him and they all said he did not seem happy with the answer. I guess they have a lot of expectations.”
+“How  would you write a sort routine to ensure that identical elements in the input  are maximally spread in the output?”
+“Maximum common Subsequence”
+“Given 2 32 bit numbers, how do u multiply them using 8bit multipliers?”
+“How to find the median number out of 4 byte integers?”
+“Reversal of letters in each word of a sentence in the most efficient way”
+“Given a stream of integers of unknown (possibly large) length, how would you pick one at random? Now prove its random.”
+“Define binary search tree. Develop a procedure to verify a binary search tree.”
+“Suppose you have a matrix of numbers. How can you easily compute the sum of any rectangle (i.e. a range [row_start, row_end, col_start, col_end]) of those numbers? How would you code this?”
+“Complexity of Bubble sort”
+“In employee table there is a self reference to boss (who is also an employee).  How to find the number of people that work under a given person for his entire tree.”
+“How to come out of a maze given that you can move one step at a time and you cannot turn left.”
+“How would you find the pairs of numbers that added to some specific number in an array.”
+“Write an algorithm to verify if a tree is a binary search tree.”
+“Design and describe a system/application that will most efficiently produce a report of the top 1 million Google search requests. You are given:You are given 12 servers to work with. They are all dual-processor machines with 4Gb of RAM, 4x400GB hard drives and networked together.(Basically, nothing more than high-end PC's)The log data has already been cleaned for you. It consists of 100 Billion log lines, broken down into 12 320 GB files of 40-byte search terms per line.You can use only custom written applications or available free open-source software.”
+“What is your favorite data structure? What opertions does it have? [Then some detailed questions about the algorithms based on this data structure]”
+“What are the first 2 integers that, when added together, equal 10 in a "very large" array of unsigned integers?”
+“How would you find the most searched for phrase in Google, assuming that you could use 10000 computer in parallel?”
+“Is it possible to swap two registers without using a third one?”
+“I don't remember exactly, but some standard low-level C/C++/Java questions. Maybe something about string manipulation, bit play, recursive algorithms, threads, networking, etc.”
+“Given a time-ordered log of user visits to web pages find the most common 3-page sequence”
+“Write the solution to the single writer, multiple reader problem”
+“Describe an algorithm that sorts a list of numbers into alternating order, i.e.a < b > c < d > e....”
+“I have a log that consists of more than 100 million lines. Each line is just a data about user login, login time, etc. I want to sort them based on user login, and then if there is a tie based on login time, etc. However, I have limited memory, so don't think of storing all of them in an array. The memory can only hold n data where n is much smaller than 100 millions. You can access the disk though although it is much slower. How will you do it so that it is as efficient as possible?”
+“Given a chessboard in which u dont know how the black and white boxes are arranged but this is sure that there will 32 black squares and 32 white squares.You have to find the least possible disatnce between any two sqaures of same colour”
+“Write a java method for reversing the contents of a linked list. (Read it over the phone)”
+“Describe recursive mergesort and its runtime. Write an iterative version in C++/Java/Python”
+“How do you reverse a linked list?  Write the code.”
+“Implement a sparse matrix Java class with a constructor, set and get method. The matrix has millions of rows and columns and is at a maximum 15% populated.”
+“Give an algorithm to simulate a fair coin toss from a biased coin”
+“Given a binary tree, how would you write program for getting mirror image of tree in O(n) time? Is it possible ? Assume you have no constraints on space.”
+“Come up with a priority queue implementation in Java on the whiteboard.”
+“What is the worst case, best case and typical case for searching a BST?”
+“Number of 1's in binary representation of integer?”
+“find a loop in a list”
+“How would you implement integer division if your language did not offer it.”
+“Given an array of integers, all but one of which appears an even number of times, find the one integer which appears an odd number of times.  Upon completion, asked to improve the algorithm in terms of both time and space, eventually asked to do it in O(n) time and constant space.”
+“Find the common ancestor of two nodes in a tree. The tree is not a binary tree strictly in that the left node is less than the right node. Also this solution should work for trees with three or four children. Provide both a recursive and iterative solution.”
+“How many unique paths are there from B-L point to the T-R point of a chess table? What would be your approach to calculate this?”
+“You are to write a spell checker. Discuss the API, Data Structures and Algorithms.”
+“Suppose you were to implement the dynamic spell checker in Word, you know the one that puts a squiggly line under misspelled words. The way it's observed working, it will flag a word immediately when it detects a misspelling. Start typing "Hell" and if you put an "i" instead of an "o", it will flag it. At a higher level, how would you implement this? What sort of data structures might you use? How would they be pieced together?”
+“Write a function that determines the number of 1 bits in the computer's internal representation of a given integer.”
+“If you had to check an integrated circuit for 32-bit and 64-bit optimization, how would you go about creating test cases and plan to do the same?”
+“Another question was "How do you represent an unlimited dimensional maze and traverse it to find the exit."”
+“I got questions like "Given a dictionary of words, how do you calculate the anagrams for a new word".”
+“I was asked a variant of the Single Source Shortest Path Problem on a general tree.”
+“Assume a text console where somebody is typing input. Whenever the person hits enter, we should display the string that he has entered. The string can be very very long and the program that takes the input and displays should be as fast as possible. Write such a C program”
+“Write a function in Java that will take a sorted array of ints, possibly with duplicates, and compact the array removing all the duplicate numbers. That is, if the contains the numbers - 1, 3, 7, 7, 8, 9, 9, 9, 10, then when the function returns, the contents should be - 1, 3, 7, 8, 9, 10.  Be sure your answer is as efficient as possible.  Describe the efficiency of your algorithm using big O notation.”
+“Considering a 2-dimension matrix that can only be traversed by 1 adjacent position at a time and never diagonally. Create an algorithm to traverse that matrix from its upper-left corner to its lower-right corner using the shorter possible path in the most efficient way.”
+“Demonstrate how you would perform insertions into a binary tree in a thread-safe manner.”
+“Write an algorithm that does an in-order traversal of a tree recursively. Now, write the same algorithm iteratively.”
+“Connect Four is a game where two players take turns dropping their color discs into a vertically suspended grid. The game ends when a player adds a disc to the playing grid that connects four discs of their color. The connected discs can be in a horizontal, vertical or diagonal line. Write a function to be called after every turn that returns true if the game is over (and false otherwise).”
+“The VCR Plus feature was described. In the TV programming guide each program/show/movie had its own code. When user wanted to program the VCR to record a particular show she just had to enter the program code from the guide - no need to enter the start and end time. I was asked to design this feature. How can it be achieved?”
+“You have list of numbers that are sorted but shifted. That is, a list like [5, 6, 1, 2, 3] or [15, 17, 20, 25, 2, 8] is given. Find the most efficient way to search for a number in this type of  list.”
+“Given a set of people, one of them is a celebrity. You have a 2D array which describes which people know each other, that is [N, M] is true if N knows M.  The celebrity will not know anyone (except them self) and everyone will know the celebrity. Find an order N algorithm to find the celebrity.”
+“Given an inorder and preorder traversal of a binary tree, reassemble the tree.”
+“You have a list of red and blue objects. You have to sort them using swapping in order N time.”
