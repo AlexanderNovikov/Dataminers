@@ -16,9 +16,9 @@ def main(lookFor, jobTitle, company, tag):
     employerHeaderPageId = 1
     questionTextPageId = 0
     g = Grab()
-    f = open(jobTitle + '-' + company + '.txt', 'w')
     g.go(p(lookFor, jobTitle, company, tag, employerHeaderPageId))
     employerHeader = g.xpath('//h1').text_content()
+    f = open('Glassdoor.com ' + employerHeader + '.txt', 'w')
     f.write(smart_str(employerHeader) + ':\n')
     while True:
         g = Grab()
