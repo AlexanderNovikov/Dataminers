@@ -10,7 +10,7 @@ def p(lookFor, jobTitle, company, tag, pageId):
     elif len(jobTitle) == 0 and len(company) == 0:
         return 'http://www.glassdoor.com/Interview/' + tag + '-' + lookFor + '-SRCH_KT0,' + str(len(tag)) + '_IP' + str(pageId) + '.htm'
     else:
-        return 'http://www.glassdoor.com/Interview/' + jobTitle + '-' + company + '-' + tag + '-' + lookFor + '-SRCH_KO0,17_KE18,24_KT25,29' + str(pageId) + '.htm'
+        return 'http://www.glassdoor.com/Interview/' + jobTitle + '-' + company + '-' + tag + '-' + lookFor + '-SRCH_KO0,'  + str(len(jobTitle)) +  '_KE' + str(len(jobTitle) + 1) + ',' + str(len(jobTitle) + len(company) + 1) + '_KT' + str(len(jobTitle) + len(company) + 2) + ',' + str(len(jobTitle) + len(company) + len(tag) + 2) + '_IP' + str(pageId) + '.htm'
 
 def main(lookFor, jobTitle, company, tag):
     employerHeaderPageId = 1
