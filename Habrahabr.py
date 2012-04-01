@@ -3,7 +3,6 @@ from grab import Grab
 from grab.tools.encoding import smart_str
 import sys
 import logging
-logging.basicConfig(level=logging.DEBUG)
 
 
 __author__ = 'alexander'
